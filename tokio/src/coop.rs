@@ -52,7 +52,7 @@ impl Budget {
     /// Note that as more yield points are added in the ecosystem, this value
     /// will probably also have to be raised.
     const fn initial() -> Budget {
-        Budget(Some(128))
+        Budget(Some(512))
     }
 
     /// Returns an unconstrained budget. Operations will not be limited.
